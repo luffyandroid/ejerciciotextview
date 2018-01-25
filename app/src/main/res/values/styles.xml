@@ -10,7 +10,7 @@
 
     <style name="boton">
 
-        <item name="android:background"></item>
+        <item name="android:background">@drawable/estiloboton</item>
 
     </style>
 
