@@ -86,9 +86,10 @@
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:text="Button" />
+            android:text="Button"
+            style="@style/boton"
+            />
     </RelativeLayout>
 
 </LinearLayout>

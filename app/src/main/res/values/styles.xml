@@ -8,10 +8,27 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- android:textColor="#FFFFFF"
+    android:textSize="30sp"
+
+    android:layout_width="270dp"
+    android:layout_height="60dp"
+    android:background="@drawable/buttonshape"
+    android:shadowColor="#A8A8A8"
+    android:shadowDx="0"
+    android:shadowDy="0"
+    android:shadowRadius="5"-->
+
     <style name="boton">
 
         <item name="android:background">@drawable/estiloboton</item>
-
+        <item name="android:textSize">@dimen/d15</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#A8A8A8</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:layout_height">@dimen/d30</item>
     </style>
 
 </resources>
